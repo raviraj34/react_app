@@ -36,8 +36,8 @@ export const Footer = () => {
                         <div className="copyright-text">
                             <p>
                                 Copyright &copy; 2024, All Right Reserved
-                                <NavLink to="https://thapatechnical.shop/" target="_blank">
-                                    ThapaTechnical
+                                <NavLink to="" target="_blank">
+                                   
                                 </NavLink>
                             </p>
                         </div>
@@ -58,7 +58,7 @@ export const Footer = () => {
                                 </li>
                                 <li>
                                     <NavLink
-                                        to="https://thapatechnical.shop/source-code"
+                                        to="https://github.com/raviraj34/react_app.git"
                                         target="_blank"
                                     >
                                         Source Code
