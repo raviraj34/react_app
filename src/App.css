@@ -457,3 +457,16 @@ overflow: hidden;
 backdrop-filter: blur(10px);
 border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+/* Add this media query to App.css */
+@media (max-width: 768px) {
+    .about-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; /* Adjusts spacing between cards */
+    }
+    .about-card {
+        flex: 0 0 48%; /* Adjusts card width to fit two in a row */
+        margin-bottom: 20px; /* Adds space between rows */
+    }
+}
